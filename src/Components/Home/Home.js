@@ -12,7 +12,7 @@ const Home = () => {
         <div className={styles.container}>
 
             <div className='imageContiner'>
-                <img className={styles.diceImage} src="dices1.png" alt="asas" />
+                <img className={styles.diceImage} src={process.env.PUBLIC_URL + "/dices1.png"} alt="asas" />
             </div>
 
             <div className={styles.textContainer}>

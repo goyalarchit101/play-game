@@ -21,7 +21,7 @@ const Main = () => {
         }
         else if (result === false) {
             setScore(score - 2);
-            setInstruction(`Bad luck, -2 deducted from yout score`);
+            setInstruction(`Bad luck, -2 deducted from your score`);
 
         }
         else if (result === 0) {
