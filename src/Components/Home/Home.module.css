@@ -1,0 +1,35 @@
+.container{
+    max-width: 1182px;
+    width: 1182px;
+    margin: 0 auto;
+    height: 522px;
+    display: flex;
+}
+
+.diceImage{
+    width: 649px;
+    height: 522px;
+}
+
+.textContainer{
+    /* background-color: aqua; */
+    max-width: 528px;
+    width: 528px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.textContainer h1{
+     font-size: 96px;
+}
+
+.playButton{
+    width: 220px;
+    height: 44px;
+}
+
+.buttonContainer{
+    display: flex;
+    justify-content: end;
+}

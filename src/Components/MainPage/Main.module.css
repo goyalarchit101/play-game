@@ -1,0 +1,108 @@
+.numberContainer {
+    max-width: 1120px;
+    margin: auto;
+    /* margin-top: 64px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: lightyellow; */
+}
+
+.score {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 135px;
+    height: 151px;
+
+}
+
+.scoreNumberselect {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.finalScore {
+    width: 62px;
+    height: 112px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+
+.score p {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+numbergap {
+    gap: 30px;
+}
+
+.selectNumber {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 24px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.selectNumber li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    height: 72px;
+    width: 72px;
+    border: 1px solid #000;
+    background: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #000;
+    cursor: pointer;
+}
+
+.selectNumber .isSelected{
+    background-color: black;
+    color: white;
+}
+
+.scoreNumberselect p {
+    width: 100%;
+    color: #000;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    justify-content: end;
+}
+
+.gameContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.error {
+    color: #FF0C0C;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}

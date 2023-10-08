@@ -1,0 +1,29 @@
+.rulesHeading {
+    color: red;
+    width: 794px;
+    height: 208px;
+    background-color: #FBF1F1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+}
+
+.rulesHeading h1 {
+    color: #000;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.rules {
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
